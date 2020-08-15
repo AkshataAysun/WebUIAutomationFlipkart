@@ -21,8 +21,8 @@ VerifyMobileCartTest
     Set Selenium Implicit Wait  10 seconds
     Click Link  xpath://*[@id='container']/div/div[1]/div[1]/div[2]/div[5]/div/div/a
     Wait Until Page Contains  Redmi Note 9
-    ${mobileName2}=  Get Element Attribute  xpath://a[@class='_325-ji _3ROAwx']  text
-    Should Be Equal As Strings  ${mobileName2}  Redmi Note 9 (Pebble Grey, 128 GB)
+    ${mobileName}=  Get Element Attribute  xpath://a[@class='_325-ji _3ROAwx']  text
+    Should Be Equal As Strings  ${mobileName}  Redmi Note 9 (Pebble Grey, 128 GB)
     Close Browser
 
 *** Keywords ***
