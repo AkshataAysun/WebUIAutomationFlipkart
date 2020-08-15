@@ -1,6 +1,8 @@
 *** Settings ***
 Library  SeleniumLibrary
 
+*** Variables ***
+
 *** Test Cases ***
 AddMobileCartTest
     Open Browser  https://www.flipkart.com/   chrome  alias
